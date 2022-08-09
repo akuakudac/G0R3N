@@ -1,0 +1,44 @@
+
+.wrapperr {
+    height: 100px;
+    /*This part is important for centering*/
+    display: grid;
+  }
+  
+  .typing-demo {
+    width: 400px;
+    animation: typing 2s steps(22), blink 0.5s step-end infinite alternate;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid;
+    font-family: VT323;
+    font-size: 2em;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+  }
+  
+  @keyframes blink {
+    50% {
+      border-color: transparent;
+    }
+  }
+  .inbl {
+    display: inline-block;
+}
+.container {
+    white-space: nowrap;
+    width: 700px;
+}
+.container img {
+  width: 500px;
+  height: 700px;
+  align-items: center;
+}
+.button {
+  align-items: center;
+}
+
